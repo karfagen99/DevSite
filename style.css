@@ -1,0 +1,145 @@
+body {
+    background-image: url('img/wall1.jpg');
+  /*  background: #282727;*/
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); 
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+}
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+hr {
+    width: 870px;
+    height: 0px;
+    top: 158px;
+    mix-blend-mode: normal;
+    border: 3px solid #FFFFFF;
+}
+
+main {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+header {
+    margin: 0 auto;
+}
+
+h1.about {
+    
+    height: 67px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(237, 12, 214, 0.55);
+    
+}
+
+.about-nav {
+    margin-top: 70px;
+    text-align: center;
+    animation: anima 5s ease-out infinite alternate;
+}
+
+.content {
+    width: 960px;
+    margin-top: 30px;
+    
+}
+.content h2 {
+    color: #FDFFB3;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.content-row-3 {
+    margin: 10px;
+    width: 216px;
+    background: #d8181800;
+    mix-blend-mode: normal;
+    border: 1px solid #00000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(15px);
+    border-radius: 16px;
+    transition: background-color 1s linear;
+}
+.content-row-3:hover{
+    background-color: #ffffff;
+}
+.img-pic {
+    margin-top: 10px;
+    text-align: center;
+}
+.content-under h2 {
+    text-align: center;
+}
+.svg {
+    margin-top: -15px;
+    position: absolute;
+    margin-left: 10px;
+}
+.info-under {
+    margin-top: 155px;
+    text-align: center;
+}
+.info-under h1 {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(237, 12, 214, 0.55);
+}
+.under-info-img {
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+}
+.using-info {
+    margin: 20px;
+}
+.using-info h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(237, 12, 214, 0.55);
+}
+.using-info-dec {
+    margin: 15px;
+}
+.using-info-dec p{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(237, 12, 214, 0.55);
+
+}
+.scroll h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(237, 12, 214, 0.55);
+    
+}
+
+@keyframes anima {
+    0% {
+        transform: rotate (0deg);
+    }
+    25%{
+        transform: rotate (45deg);
+        
+    }
+    50%{
+        transform: rotate (90deg);
+    }
+    100%{
+        transform: rotate (180deg);
+    }
+}
