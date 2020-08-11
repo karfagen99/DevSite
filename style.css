@@ -19,6 +19,7 @@ body:before {
     will-change: transform;
     z-index: -1;
 }
+
 /* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -87,6 +88,9 @@ h1.about {
     backdrop-filter: blur(15px);
     border-radius: 16px;
     transition: background-color 1s linear;
+}
+.content-row-3 a {
+    text-decoration: none;
 }
 .content-row-3:hover{
     background-color: #ffffff;
