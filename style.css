@@ -1,9 +1,23 @@
 body {
-    background-image: url('img/wall.jpg');
+    
+    position: relative;
+
   /*  background: #282727;*/
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); 
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite; */
+}
+body:before {
+    background-image: url('img/back1.jpg');
+    background-size: cover;
+    content: ' ';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
 }
 
 /* @keyframes gradient {
@@ -23,6 +37,7 @@ hr {
     top: 158px;
     mix-blend-mode: normal;
     border: 3px solid #FFFFFF;
+    border-radius: 14px;
 }
 
 main {
@@ -74,6 +89,9 @@ h1.about {
     backdrop-filter: blur(15px);
     border-radius: 16px;
     transition: background-color 1s linear;
+}
+.content-row-3 a {
+    text-decoration: none;
 }
 .content-row-3:hover{
     background-color: #ffffff;
