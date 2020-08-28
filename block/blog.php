@@ -10,8 +10,9 @@
     <body>
         <main role="main">
             <div class="content">
-                <div class="nav-bar">
-                    <h1 class="news">Latest news</h1>
+                <div class="nav-bar d-flex jystify-content-center flex-grow-2">
+                    <div class="news-bar"><h1 class="news">Latest news</h1></div>
+                    <div class="news-bar-2"><a href="../block/addBlog.php"><h1 class="addnews">Add post</h1></a></div>
                 </div>
 
                 <div class="news-own">
@@ -25,7 +26,17 @@
                             стандартной "рыбой" для текстов на латинице с начала XVI века. 
                             В то время некий безымянный печатник создал большую 
                             коллекцию размеров и форм шрифтов, используя Lorem Ipsum для 
-                            распечатки</h1></div>
+                            распечатки</h1>
+                            
+                                <?php 
+                                    require '../db.php';
+                                    echo '<div class="time">'
+                                    .$d['mday'].'.'.$d['mon'].'.'.$d['year'].
+                                    '</div>';
+                                ?>
+                                
+                            </div>
+                            
                     </div>
                 </div>
                 <div class="news-own">

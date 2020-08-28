@@ -25,7 +25,7 @@ h1.news {
     font-size: 25px;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(15, 228, 96, 0.692);
+    text-shadow: 0px 4px 4px rgba(82, 95, 87, 0.692);
 }
 .nav-bar {
     margin-top: 20px;
@@ -34,13 +34,24 @@ h1.news {
     background-color: #C4C4C4;
     border-radius: 10px;
     background: rgba(196, 196, 196, 0.79);
-box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
-border-radius: 15px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    justify-content: center;
     
 }
+/* .news-bar-2 {
+    margin-left: 30px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.808);
+} */
 .nav-bar h1 {
     font-size: 35px;
 }
+.time {
+    margin-left: 15px;
+    
+}
+
 .news-own {
     margin-top: 25px;
     padding: 10px;
@@ -48,8 +59,8 @@ border-radius: 15px;
     background-color: #C4C4C4;
     border-radius: 10px;
     background: rgba(196, 196, 196, 0.79);
-box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
-border-radius: 15px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
 img {
     text-align: center;
